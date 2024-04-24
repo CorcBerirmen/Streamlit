@@ -64,10 +64,6 @@ if st.button('Download as Excel'):
     file_path = os.path.join(downloads_path, f"PTF_SMF_{selected_start_date[:10]}_{selected_end_date[:10]}.xlsx")
     data.to_excel(file_path)
     st.write("Download complete!")
-    
-    
-if __name__ = "__main__":
-    st.run()
 
 
 
